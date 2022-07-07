@@ -4,14 +4,14 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 120px;
 }
@@ -48,4 +48,38 @@ section {
 
 .section2-pera {
     padding-right: 100px;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 30px grey;
+    width: 45%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.experiance {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-developer {
+    border-left: 8px solid tomato;
+}
+
+#baby-stack-developer {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
+    color: grey;
 }
